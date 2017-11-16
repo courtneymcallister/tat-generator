@@ -15,5 +15,8 @@
     "url": "https://github.com/courtneymcallister/tat-generator/issues"
   },
   "homepage": "https://github.com/courtneymcallister/tat-generator#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
