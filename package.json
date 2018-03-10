@@ -17,6 +17,7 @@
   "homepage": "https://github.com/courtneymcallister/tat-generator#readme",
   "description": "",
   "dependencies": {
+    "browserify": "^16.0.0",
     "express": "^4.16.2"
   }
 }
