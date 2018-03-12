@@ -23,8 +23,12 @@ function generateTat(){
     var article = 'a'
   }
 
+  //add random celebration at the end of the tat output
+  const celebrations = ['Congrats', 'Fancy', 'Sexy', 'How fun', "That'll probably hurt"]
+  var celebration = celebrations[Math.floor(Math.random() * celebrations.length)]
+
   //spit out full string
-  document.getElementById('tatDisplay').innerHTML = `You're getting ${article} ${tatStyle} ${tatSubject} on your ${tatLocation}! Congrats!`
+  document.getElementById('tatDisplay').innerHTML = `You're getting ${article} ${tatStyle} ${tatSubject} on your ${tatLocation}! ${celebration}!`
 }
 
 var generate = document.getElementById('generate')
